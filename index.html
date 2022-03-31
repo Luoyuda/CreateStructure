@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CreateStructure</title>
+  <style>
+    *{
+      margin: 0;
+    }
+    html,body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    header{
+      width: 100vw;
+      height: 30vh;
+      background-color: aliceblue;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+    }
+    main{
+      width: 90vw;
+      height: 50vh;
+      background-image: url('https://p9-passport.byteacctimg.com/img/user-avatar/fbf0dad2f64546b5718cb7e502e92c7b~300x300.image');
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    footer{
+      width: 100vw;
+      height: 3vh;
+      background-color:whitesmoke;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    p{
+      width: 80vw;
+      margin: 1vh 0;
+      height: 5vh;
+    }
+    img{
+      margin: 1vh 0;
+      width: 50vw;
+      height: 8vh;
+    }
+  </style>
+</head>
+<body>
+  <!-- 
+    * 1. 有背景图片的节点
+    * 2. 有背景颜色且有圆角的节点
+    * 3. 文本节点
+    * 4. 子节点为文本节点
+    * 5. 在需要绘制的标签内的节点 
+  -->
+  <header>
+    header
+  </header>
+  <p>Text</p>
+  <img src="https://p9-passport.byteacctimg.com/img/user-avatar/fbf0dad2f64546b5718cb7e502e92c7b~300x300.image" alt="">
+  <main>
+    main
+  </main>
+  <footer>
+    footer
+  </footer>
+  <script>
+  </script>
+  <script src="./clipboard.min.js"></script>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
